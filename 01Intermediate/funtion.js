@@ -19,7 +19,21 @@ let myAdder = function(num1,mun2){
     return added
 
 }
-let resuklt = myAdder(3,5)
-console.log(`result is ${resuklt}`);
+// let resuklt = myAdder(3,5)
+// console.log(`result is ${resuklt}`);
 
+
+let mul = function(num1 ,num2 ){
+    return num1 * num2 
+}
+
+// let result = mul (3,5)
+// console.log(`result is ${result}`);
+
+
+let  guestUser = function(name = 'UnName' ,courceCount=0){
+    return 'Hello ' +name +' your cource is: '+ courceCount
+}
+
+console.log(guestUser('Rohit',1));
 
